@@ -1,0 +1,134 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.nav-Style
+{
+  color: #404145;
+  background-color: #181A1B
+}
+.text-Placeholder
+{
+  color: #404145;
+}
+
+.search
+{
+  background-color: #181A1b
+}
+.nav-li
+{
+ color: #878484
+}
+.nav-li:hover
+{
+  color:#17995C
+}
+.nav-spec-li
+{
+  color:#17995C;
+}
+.nav-spec-li:hover
+{
+  color:white;
+  background-color:#17995C
+}
+@font-face {
+  font-family: 'volmed';
+  src: url('/public/Fonts/volmed.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'volreg';
+  src: url('/public/Fonts/volreg.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.volreg
+{
+  font-family: 'volreg';
+}
+ 
+.areYou {
+  font-family: 'volmed';
+    color:transparent;
+    -webkit-text-stroke: 4px #17995C; 
+}
+
+.buySell
+{
+  font-family: 'volmed';
+  color:#17995C;
+    -webkit-text-stroke: 2px #17995C; 
+}
+
+.buySell:hover
+{
+  font-family: 'volmed';
+  color:#074227;
+    -webkit-text-stroke: 2px #17995C; 
+}
+
+.buysellcolor
+{
+  background-color: #1D1F20;
+}
+
+.continue
+{
+  background-color: #17995C;
+  color:white;
+}
+.continue:hover
+{
+  background-color: #074227;
+  color:white;
+}
+
+.connect
+{
+background-color: transparent;
+}
+
+.connect:hover
+{
+background-color: #1D1F20;
+}
